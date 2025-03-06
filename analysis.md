@@ -103,6 +103,7 @@ Overall, this trend reflects the Packers’ investment in their offensive line a
 
 ### 4. **Correlation of Stats with Total Points**  
    <img width="886" alt="Screenshot 2025-03-06 at 4 05 28 PM" src="https://github.com/user-attachments/assets/43651c4d-013d-4396-a45a-0ffddf93d664" />
+
 This plot illustrates the correlation between various team stats and the total points scored by the Green Bay Packers over the seasons. Key insights include:
 
 - Passing Efficiency: A strong correlation between passing efficiency metrics (such as passer rating and passing yards per attempt) and total points scored. This suggests that an efficient passing game plays a significant role in the Packers' ability to put up points.
