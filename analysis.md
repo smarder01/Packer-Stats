@@ -121,6 +121,6 @@ On defense, the team has made considerable strides, especially in terms of point
 The Packers' overall performance is indicative of a rebuilding phase, with a strong foundation being laid for future success. The team's ability to adapt to changes and improve key areas, particularly in offensive and defensive execution, positions them well for continued growth and competitiveness in the upcoming seasons.
 
 ### Future Analysis
-Opponent Analysis: Investigating how the Packers perform against specific teams, considering both divisional and non-divisional opponents.
-Improved Modeling: Future work will involve statistical modeling to predict future performance based on historical trends, incorporating additional factors like injuries, roster changes, and game context (e.g., playoff races).
-Further Exploration of Special Teams: Expanding the analysis to include the impact of special teams (punts, field goals, and kick returns) on overall game outcomes.
+- **Opponent Analysis**: Investigating how the Packers perform against specific teams, considering both divisional and non-divisional opponents.
+- **Improved Modeling**: Future work will involve statistical modeling to predict future performance based on historical trends, incorporating additional factors like injuries, roster changes, and game context (e.g., playoff races).
+**Further Exploration of Special Teams**: Expanding the analysis to include the impact of special teams (punts, field goals, and kick returns) on overall game outcomes.
