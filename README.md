@@ -57,7 +57,7 @@ The dataset includes game-level statistics for 117 Packers games from the regula
 
 ---
 
-## 📌 Hypotheses  
+## Hypotheses  
 1. **Offensive performance trends over time:**  
    - Total points scored, passing yards, and rushing yards will show consistent trends or fluctuations.  
 2. **Defensive performance variability:**  
@@ -67,18 +67,18 @@ The dataset includes game-level statistics for 117 Packers games from the regula
 
 ---
 
-## 🚀 Project Features  
-✅ **Season-wise statistical summary:** Computes averages of key metrics per season.  
-✅ **Trend visualizations:** Line plots tracking offensive and defensive performance.  
-✅ **Correlation analysis:** Examines the relationship between possession time and total points scored.  
-✅ **Automated data processing:** Cleans and transforms raw game data for easy analysis.  
-✅ **CSV export:** Saves processed season-wise statistics for further exploration.  
+## Project Features  
+**Season-wise statistical summary:** Computes averages of key metrics per season.  
+**Trend visualizations:** Line plots tracking offensive and defensive performance.  
+**Correlation analysis:** Examines the relationship between possession time and total points scored.  
+**Automated data processing:** Cleans and transforms raw game data for easy analysis.  
+**CSV export:** Saves processed season-wise statistics for further exploration.  
 
 ---
 
-## 🛠️ Installation & Usage  
+## Installation & Usage  
 
-### 1️⃣ Install Dependencies  
+### Install Dependencies  
 Ensure Python is installed, then run:  
 ```bash
 pip install pandas matplotlib seaborn numpy
