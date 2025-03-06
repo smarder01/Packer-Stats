@@ -10,9 +10,7 @@ In addition to tracking overall performance, the analysis will also explore how 
 ## Data Preprocessing
 Before proceeding with the analysis, the raw data is cleaned and transformed to ensure the following:
 - Removal of any missing or erroneous values.
-- Conversion of time-related variables (e.g., possession time) into appropriate formats.
 - Aggregation of data by season to allow for easy comparison of performance trends over time.
-- Calculation of additional metrics, such as conversion rates for 3rd and 4th downs.
 
 ---
 
@@ -24,20 +22,49 @@ We will analyze how the Packers' offensive performance has evolved across the se
 - **Total Points Scored**
 - **Passing Efficiency**: Passing yards per attempt, completion percentage, and passer rating.
 - **Rushing Efficiency**: Yards per carry, rushing touchdowns, and rushing attempts.
-  
-#### Plots to Include:
-1. **Total Points Scored per Season**  
-   - **Plot Type**: Line plot showing total points scored for each season.
-   - **Discussion**: Discuss whether the total points scored increased or decreased over time and possible reasons for fluctuations. Highlight any outliers or seasons with significantly better or worse performance.
+- **Interceptions Thrown**
+
+1. **Average Points Scored per Season**  
+   <img width="846" alt="Screenshot 2025-03-06 at 4 04 00 PM" src="https://github.com/user-attachments/assets/d89375df-f8bc-42ab-aefa-1d109bbe8054" />
+
+The Green Bay Packers' average points per season from 2018 to 2024 reveal significant fluctuations in offensive performance, reflecting key transitions within the team. From 2018 to 2019, the team maintained a stable scoring average of around 24 points per game before experiencing a dramatic surge in 2020, reaching approximately 32 points per game. This peak coincided with head coach Matt LaFleur's offensive system taking full effect, utilizing a strong play-action passing game and a balanced attack. However, following this high point, the offense steadily declined over the next two seasons, dropping significantly by 2022. This period marked major roster changes, including the departure of All-Pro center Corey Linsley and the eventual loss of star wide receiver Davante Adams, which likely contributed to the struggles.
+
+The steep decline in 2022 also coincided with Aaron Rodgers' final season in Green Bay. While Rodgers remained a key figure, the offense lacked consistency due to injuries and a lack of proven receiving options following Adams' departure. The struggles in 2022 highlight the challenges of maintaining high-level offensive production amidst roster turnover and shifting dynamics within the team. Following Rodgers' departure after the 2022 season, the Packers entered a transition period in 2023 with Jordan Love taking over as starting quarterback. The offense showed only slight improvement that year, likely reflecting growing pains and adjustments to a new system with younger players stepping into key roles.
+
+Despite the initial challenges, the Packers' offense showed notable improvement in 2024, with average points per game climbing toward 27. This resurgence can be attributed to the development of young receivers like Christian Watson and Romeo Doubs, a more effective running game led by Aaron Jones and AJ Dillon, and improved cohesion under Jordan Love. The offensive line also played a role in stabilizing production, allowing for more efficient play execution.
+
+Overall, the Packers’ offensive performance over these years reflects the impact of coaching changes, roster adjustments, and quarterback transition. While the departure of Rodgers was a significant factor, the team's scoring trends were also shaped by injuries, evolving personnel, and the adaptation of LaFleur’s offensive scheme. The recent resurgence in 2024 suggests that the Packers are beginning to establish a new offensive identity, which could lead to continued growth in the coming seasons.
 
 2. **Passing Efficiency Over Time**  
-   - **Plot Type**: Line plot showing passing yards per attempt (y/a) and passer rating across the seasons.
-   - **Discussion**: Discuss how the Packers' passing game has evolved, focusing on any seasons where passing efficiency significantly improved or declined. Investigate correlations with quarterback performance and offensive strategy.
+   <img width="846" alt="Screenshot 2025-03-06 at 4 04 33 PM" src="https://github.com/user-attachments/assets/650d1414-0346-46cb-8497-739490caef21" />
+
+This chart shows the Green Bay Packers' average passing yards per season from 2018 to 2024, highlighting key trends in the team's aerial attack. The data indicates a decline in passing yards in 2019, likely influenced by the team's transition to Matt LaFleur’s system, which emphasized a more balanced offense. However, passing production rebounded in 2020 and remained relatively high in 2021, coinciding with Aaron Rodgers' back-to-back MVP seasons and strong performances from Davante Adams.
+
+A sharp decline in passing yards occurred in 2022, aligning with Adams’ departure and Rodgers' final season in Green Bay. This drop suggests that the lack of established receiving threats and offensive struggles played a major role in limiting passing production. In 2023, with Jordan Love taking over as the starting quarterback, passing yards rebounded slightly as young receivers like Christian Watson and Romeo Doubs gained experience, but the numbers remained below the peak levels seen in previous seasons.
+
+In 2024, the passing attack showed signs of stabilization but did not reach the highs of earlier years. This could indicate a shift toward a more run-balanced offensive approach or growing pains as the team continued developing its young offensive core. The trend suggests that while the Packers' passing game has undergone fluctuations due to key personnel changes, it is in a rebuilding phase, with potential for future growth as Love and his supporting cast continue to develop.
 
 3. **Rushing Efficiency Over Time**  
-   - **Plot Type**: Line plot showing rushing yards per attempt (y/a) and rushing touchdowns over time.
-   - **Discussion**: Analyze whether the Packers' rushing attack has been consistent or if it has varied by season. Identify any significant trends, such as a decrease in rushing efficiency and possible underlying factors (e.g., offensive line play or changes in personnel).
+   <img width="846" alt="Screenshot 2025-03-06 at 4 04 33 PM" src="https://github.com/user-attachments/assets/e69129ed-7840-4378-89e6-a7f0094cf44a" />
 
+The Packers’ rushing yards per season from 2018 to 2024 show a clear upward trend, particularly in 2020 and 2024. The 2019 season saw a modest improvement from 2018, but the biggest jump came in 2020 when the team averaged over 132 rushing yards per game. This increase coincided with the emergence of a strong rushing duo in Aaron Jones and AJ Dillon, as well as an offensive scheme that emphasized play-action and a more balanced attack under Matt LaFleur.
+
+A slight dip in rushing production occurred in 2021, likely due to shifting offensive priorities and injuries, but the run game remained a key component of the Packers' strategy. The 2022 season saw an increase in rushing yards, which may have been a response to the lack of consistent receiving options following Davante Adams’ departure. However, in 2023, as Jordan Love took over at quarterback, the rushing numbers dropped slightly, possibly reflecting growing pains as the offense adjusted to a new signal-caller.
+
+The most significant increase came in 2024, with the Packers averaging nearly 147 rushing yards per game. This suggests a stronger emphasis on the ground game, possibly to support Love’s development and ease pressure on the passing attack. Improved offensive line play and the continued effectiveness of Jones and Dillon likely contributed to this surge. The Packers' recent rushing trends indicate a shift toward a more balanced or even run-heavy offense, which could be a key factor in their offensive resurgence moving forward.
+
+3. **Average interceptions thrown by packers**
+<img width="846" alt="Screenshot 2025-03-06 at 4 05 09 PM" src="https://github.com/user-attachments/assets/a7495922-a109-4869-8cc0-b1005cc60c55" />
+The Packers’ interception trends from 2018 to 2024 highlight shifts in quarterback play and decision-making, especially during the transition from Aaron Rodgers to Jordan Love.
+
+From 2018 to 2020, the Packers maintained an impressively low interception rate, averaging around 0.25 to 0.31 interceptions per game. This reflects Aaron Rodgers’ elite efficiency, as he was known for his exceptional ability to protect the football and limit turnovers. Even in 2020, when the number slightly increased to 0.31, it was still among the league’s best, coinciding with Rodgers’ MVP season and the team’s offensive dominance.
+
+In 2021, interceptions began to climb to 0.41 per game, possibly due to more aggressive play-calling or riskier throws as the offense adapted to changes in personnel. However, the biggest shift came in 2022, when the number jumped to 0.71 per game, marking Rodgers’ highest interception rate in years. This was likely influenced by the departure of Davante Adams, which left the quarterback with a young, inexperienced receiving corps and led to more forced throws and miscommunications.
+
+With Jordan Love taking over in 2023, the interception rate remained high at 0.65 per game, suggesting growing pains as he adjusted to a full-time starting role. While Love showed promise, turnovers remained a challenge, especially in critical moments. The 2024 season saw no improvement in this area, as the interception rate stayed at 0.65, indicating that while the offense made strides in other areas, limiting turnovers remains a key area for development.
+
+Overall, the Packers’ interception trends show the impact of quarterback transition, with Rodgers’ historically low turnover rate giving way to a more volatile but developing passing attack under Love. If Love and the young receivers continue to gain experience, improving decision-making and ball security will be crucial for long-term offensive success.
+   
 ---
 
 ### 2. **Defensive Performance Trends**
@@ -47,55 +74,30 @@ The next area of focus is the defense. Metrics analyzed include:
   
 #### Plots to Include:
 1. **Opponent Points Allowed per Season**  
-   - **Plot Type**: Line plot showing points allowed by the Packers' defense each season.
-   - **Discussion**: Discuss whether the defense's ability to limit opponent scoring has improved or worsened. Consider the impact of injuries, changes in coaching staff, or player acquisitions.
+   <img width="846" alt="Screenshot 2025-03-06 at 4 04 15 PM" src="https://github.com/user-attachments/assets/f1d49a59-c4d0-48f1-8e49-f08b25502b27" />
+
+The Green Bay Packers' defensive performance, as measured by average points allowed per season from 2018 to 2024, shows a general trend of improvement. The 2018 season had the highest points allowed, around 25 per game, but this number dropped significantly in 2019 to under 20, reflecting an early impact of defensive improvements under then-new head coach Matt LaFleur and defensive coordinator Mike Pettine. However, in 2020, the defense saw a setback, allowing an increase to around 23 points per game, potentially linked to inconsistent run defense and struggles in key matchups.
+
+From 2021 onward, the Packers' defense demonstrated more stability, maintaining an average of approximately 21-22 points per game through 2022. This period saw key defensive investments, including the rise of pass rushers like Rashan Gary and the addition of first-round draft picks such as Eric Stokes to strengthen the secondary. However, despite these efforts, defensive inconsistencies—especially in run defense and tackling efficiency—remained a concern.
+
+A notable shift occurred in 2023 and 2024, with the Packers steadily improving their defensive performance, allowing fewer than 21 points per game by 2024. This trend suggests a stronger defensive unit, potentially due to key coaching changes, including the hiring of defensive coordinator Jeff Hafley in 2024. Additionally, the emergence of young talent, improved linebacker play, and better execution of defensive schemes likely contributed to this positive shift.
+
+Overall, the Packers’ defensive performance over these years reflects a fluctuating but gradually improving trend. The team overcame early struggles and roster adjustments to develop a more consistent and reliable defensive unit. The continued decline in points allowed in 2024 signals that the Packers' defense could be a strong foundation moving forward, complementing the offensive growth seen in the same period.
 
 2. **Sacks per Season**  
-   - **Plot Type**: Line plot showing total sacks recorded by the Packers' defense per season.
-   - **Discussion**: Analyze the consistency of the defense's pass rush and its correlation with defensive performance. Discuss the role of defensive players, such as the defensive line and linebacker corps, in generating sacks.
+   <img width="846" alt="Screenshot 2025-03-06 at 4 04 43 PM" src="https://github.com/user-attachments/assets/5d247777-f238-4dab-aec3-37bd2722251d" />
 
----
+   The number of sacks allowed by the Packers from 2018 to 2024 shows a clear downward trend, indicating significant improvement in pass protection over time.
 
-### 3. **Time of Possession Analysis**
-One of the key components of a team’s performance is time of possession. We will explore:
-- **Total Time of Possession** and how it correlates with overall game success.
+In 2018, the Packers' offensive line struggled, allowing an average of 3.31 sacks per game, which was relatively high. However, in 2019, there was a major improvement, with sacks dropping to 2.25 per game, likely due to an improved offensive scheme under Matt LaFleur and better protection adjustments.
 
-#### Plots to Include:
-1. **Time of Possession vs. Total Points Scored**  
-   - **Plot Type**: Scatter plot with time of possession on the x-axis and total points scored on the y-axis.
-   - **Discussion**: Examine the relationship between possession time and total points scored. Discuss whether longer possession leads to more points or if the Packers' efficiency in scoring is independent of possession time.
+The biggest leap came in 2020, when the sacks allowed dropped dramatically to 1.31 per game, coinciding with an MVP season from Aaron Rodgers and an efficient, quick-hitting passing attack. The offensive line, led by All-Pro center Corey Linsley and standout tackles like David Bakhtiari, played a crucial role in keeping Rodgers upright.
 
----
+From 2021 to 2023, sack numbers remained relatively stable in the 1.76 to 1.94 range, showing that despite some roster turnover and injuries, the line maintained solid protection. This was particularly important in 2022, Rodgers' final season in Green Bay, as the offense dealt with receiver struggles and inconsistency.
 
-### 4. **Third and Fourth Down Conversion Analysis**
-We will analyze the Packers' performance on third and fourth downs, as these are key moments that can influence game outcomes:
-- **3rd Down Conversion Rate**: Successful conversions on third down.
-- **4th Down Conversion Rate**: Successful conversions on fourth down.
+In 2024, sacks reached their lowest level of the entire period, at 1.29 per game, suggesting a strong offensive line performance and possibly a more mobile or quick-decision-making approach from Jordan Love. The improvement in protection is likely helping Love’s development, allowing him more time to read defenses and make throws without constant pressure.
 
-#### Plots to Include:
-1. **3rd Down Conversion Rate per Season**  
-   - **Plot Type**: Bar plot showing the success rate of 3rd down conversions across seasons.
-   - **Discussion**: Analyze whether the Packers' success rate on third down has improved or declined. Discuss how conversion rates correlate with game outcomes, focusing on offensive playcalling and execution.
-
-2. **4th Down Conversion Rate per Season**  
-   - **Plot Type**: Bar plot showing the success rate of 4th down conversions across seasons.
-   - **Discussion**: Discuss the Packers' decision-making on fourth downs, particularly in high-stakes moments. Compare 4th down conversion rates with league averages and explore the effectiveness of aggressive or conservative strategies.
-
----
-
-### 5. **Home vs. Away Performance**
-Home-field advantage is a significant factor in football. We'll analyze how the Packers perform in home games versus away games.
-
-#### Plots to Include:
-1. **Home vs. Away Performance (Total Points Scored)**  
-   - **Plot Type**: Box plot comparing total points scored in home vs. away games.
-   - **Discussion**: Discuss any differences in offensive output between home and away games. Consider factors such as crowd support, travel fatigue, and opponent familiarity.
-
-2. **Home vs. Away Performance (Points Allowed)**  
-   - **Plot Type**: Box plot comparing points allowed in home vs. away games.
-   - **Discussion**: Examine whether the defense performs better at home or on the road. Look for any patterns that might suggest a greater defensive struggle in away games.
-
----
+Overall, this trend reflects the Packers’ investment in their offensive line and a well-designed offensive system that prioritizes protection, which has led to sustained success in keeping their quarterbacks clean.
 
 ## Conclusion and Future Work
 ### Summary of Key Findings
